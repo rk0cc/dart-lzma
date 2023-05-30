@@ -1,9 +1,8 @@
 import 'dart:async';
 import 'dart:math' as math;
 
-import 'package:test/test.dart';
-
 import 'package:lzma/lzma.dart';
+import 'package:test/test.dart';
 
 void main() {
   group('rountrip encoding and decoding', () {
